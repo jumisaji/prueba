@@ -266,3 +266,55 @@ nothing to commit, working tree clean
 
 57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/prueba/merdadoAbierto (master)
 $
+//CORRIGIENDO EL NOMBRE DE LA CARPETA :p POR marcadoAbierto
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba (master)
+$ mkdir "mercadoAbierto"
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba (master)
+$ cd mercadoAbierto/
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git init
+Initialized empty Git repository in C:/Users/57310/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto/.git/
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        productos.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git add productos.js
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   productos.js
+
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git commit -m "mi primer commit"
+[master (root-commit) 6df2fb5] mi primer commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 productos.js
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+57310@DESKTOP-F1TJKHP MINGW64 ~/Desktop/Full Stack/3. MODULO 3/prueba/mercadoAbierto (master)
+$
